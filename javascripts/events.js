@@ -6,9 +6,8 @@ $('#catInput').keypress((event) => {
 	if (event.key === 'Enter'){
 		let numberOfCats = $('#catInput').val();
 		// console.log('getting the catz');
-		let getTheCats = cats.getCats();
+		createDomString(cats.loadCats(numberOfCats));
 		// console log('drawing the catz');
-		createDomString(numberOfCats);
 	}
 });
 
