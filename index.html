@@ -9,12 +9,15 @@
 <div class="container">
     <h1>Cats for Adoption</h1>
     <div class="form-inline">
-     	<div class="form-group">
-        <input type="text" class="form-control" id="catInput" placeholder="How many cats?">
+     	<div id="inputForm" class="form-group">
+        <input type="text" class="form-control" id="catInput" placeholder="Display Current Cats">
      </div>
      	<button id="submitButton" class="btn btn-default">Submit</button>
+        <button id="disabledCatsButton" class="btn btn-default hidden">Get Rid Of The Disabled Ones</button>
         
-	<div id="catHolder"></div>
+	<div id="catHolder" class="row"> 
+    </div>
+
 </div>
 
 <script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.js"></script>
