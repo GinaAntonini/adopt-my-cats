@@ -1,0 +1,16 @@
+body {
+	background-color: #66CDAA;
+}
+
+#catHolder {
+	margin: 4%;
+}
+
+.catImage {
+	height: 150px;
+    width: 200px;
+}
+
+.hidden {
+	display: none;
+}
