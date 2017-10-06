@@ -7,6 +7,7 @@ I'm the owner of a cat adoption website. I need a website that allows me to load
 2. I should be able to either click the enter key in the input field or the button on the page to submit my number of cats I have.
 3. I should be able to make a call to: https://random-dogs-api.herokuapp.com/cats/NUMBEROFCATZZZZZ (obviously replacing NUMBEROFCATZZZZZ with the actual number I entered in step 1).
 <p>Once all the cats come back:</p>
+
 - [x] They should be displayed on my page in card-like style (use Bootstrap columns to aid in this).
 
 - [x] Your card should be a div, it should have a nested div to display the cat image, it should have another nested div to contain all the descriptive elements (each in their own p tag).
@@ -17,14 +18,14 @@ I'm the owner of a cat adoption website. I need a website that allows me to load
 
 - [x] A new button should now appear at the top of the page: 'Get Rid Of The Disabled Ones'
 
-- [] Once I click on the 'Get Rid Of The Disabled Ones' button, any card on my page that has a p tag with the class disabled-cat should be hidden.
+- [ ] Once I click on the 'Get Rid Of The Disabled Ones' button, any card on my page that has a p tag with the class disabled-cat should be hidden.
 
 #### The Following Tools Were Used:
-*Browserify
-*Grunt
-*jQuery (DOM methods, AJAX)
-*Linting
-*Bootstrap
+1. Browserify
+2. Grunt
+3. jQuery (DOM methods, AJAX)
+4. Linting
+5. Bootstrap
 
 ##
 
