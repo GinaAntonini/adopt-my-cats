@@ -32,7 +32,7 @@ const hideButtonAndInput = () => {
 };
 
 const hideTheDisabledCats = () => {
-    $('.disabled-cat').parentNode.parentNode.addClass("hidden");
+    $('.disabled-cat').addClass("hidden");
 };
 
 module.exports = {}; 
